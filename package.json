@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/diffflux",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Diff validation gates for flux inputs before they hit prod.",
+  "bin": {
+    "diffflux": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/diffflux.git"
+  },
+  "homepage": "https://theworker02.github.io/diffflux/",
+  "keywords": [
+    "diff",
+    "flux",
+    "validate",
+    "cli",
+    "toolkit"
+  ]
+}
